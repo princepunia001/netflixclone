@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign_in</title>
+   <style>
+    *
+{
+    
+    scroll-behavior: smooth;
+  
+background-repeat:no-repeat;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+body
+{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/563192ea-ac0e-4906-a865-ba9899ffafad/6b2842d1-2339-4f08-84f6-148e9fcbe01b/IN-en-20231218-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+background-repeat: no-repeat;
+}
+
+
+
+body form  
+{
+    text-align: center;
+   
+    margin-top: 50px;
+    padding-right:180px;
+    font-size:30px;
+   box-shadow: 10px 10px 10px  black;
+
+  height: auto;
+
+ 
+   margin-left: 60px;
+   background-repeat: no-repeat;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"]
+
+{
+    background-color:white;
+   width:200px;
+   height:30px;
+   border-radius: 30px;
+   font-size: x-large;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding-left: 20px;
+   box-shadow: 10px 7px 8px 1px black;
+}
+p
+{
+   
+    padding-left: 15px;
+}
+select
+{
+    background-color: white;
+    width:200px;
+    height:30px;
+    border-radius: 30px;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+   margin-bottom: 10px;
+ }
+button
+ {
+    background-color: rgb(138, 199, 236);
+    width:200px;
+    height:50px;
+    border-radius: 30px;
+    font-size: x-large;
+    font-family:Arial, Helvetica, sans-serif;
+ padding:10px;
+ cursor: pointer;
+ }
+ header div a{
+ 
+    text-align: right;
+    color: black;
+    padding:7px;
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: xx-large;
+    border: 2px solid black;
+    background-color: rgb(186, 0, 0);
+    border-radius: 50px;
+    font-family:'Times New Roman', Times, serif ;
+ }
+
+ 
+
+   </style>
+</head>
+<body>
+<header>
+    <div>
+        <a href="index.html">HOME</a>
+    </div>
+<div>
+    <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt="" height="110px"
+    width="170px">
+
+
+</header>
+
+
+    <form>
+
+         <p> <input type="text" name="name" id=" name " required="" placeholder="Enter Your Name"> </p>
+         <p> <input type="email" name="email" id="email"required=""placeholder="Enter Email Id"></p>
+         <p> 
+            <select id="gender" name="gender" aria-placeholder="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+         <p> <input type="number" name="number" id="number" required=""placeholder="EnterNumber"></p>
+         <p><input type="password" name="password" id="password" required=""placeholder="Enter password"></p>
+         <button type = "submit" value="submit" onclick= "submitForm()"> Submit </button>
+          </form>
+
+
+<!-- 
+<script>
+    function submitForm() {
+ 
+    
+        alert("Form submitted successfully. We will connect with you soon!");
+// You can add code here to send the form data to a server or perform other actions.
+    }
+</script> -->
+</body>
+</html>

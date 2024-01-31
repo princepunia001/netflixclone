@@ -1,0 +1,352 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Martel+Sans:wght@600&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&family=Source+Code+Pro:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #232323;
+}
+.nav{
+    display: flex;
+   
+}
+.logo{
+    margin: 10px 10px 10px 169px ;
+    
+}
+.sign_in{
+    display: flex;
+    position: relative;
+    left: 600px;
+    margin: 22px 0px 0px 0px;
+}
+.sign_in li{
+    list-style: none;
+ 
+margin: 10px;
+}
+.sign_in li a
+{
+    text-decoration: none;
+     font-size: x-large;
+    color: black;
+}
+.btn{
+    height: 32px;
+    width: 80px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.sign_in li select{
+    height: 35px;
+    width: 110px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: transparent;
+}
+.container{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 10px 10px 10px ;
+}
+.container h1,h2,h3,ul{
+    margin: 12px;
+}
+.container ul{
+    display: flex;
+}
+.container ul li{
+    margin: 10px;
+    list-style: none;
+}
+.container ul li input{
+    height: 40px;
+    width: 330px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    background: transparent;
+    color: rgb(252, 246, 246);
+    font-size: 20px;
+}
+.container ul li button{
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.main::before {
+    font-family: sans-serif;
+    content: "";
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/563192ea-ac0e-4906-a865-ba9899ffafad/6b2842d1-2339-4f08-84f6-148e9fcbe01b/IN-en-20231218-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    position: absolute;
+   top: auto;
+    left: 0;
+    
+    right: 0;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    z-index: -1;
+   
+   
+ }
+ .main{
+    height: 700px;
+    font-family: sans-serif;
+    background-color: rgba(53, 50, 50, 0.1);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    
+ }
+.container h1{
+    font-size: 42px;
+    font-weight: 800;
+}
+.container h2,h3{
+    font-weight: 400;
+}
+.box{
+    margin: 10px 0px 0px 0px;
+    font-family: sans-serif;
+   
+    background-color: black;
+    height: 500px;
+    color: white;
+    padding: 20px 20px 20px 20px;
+}
+.box h1{
+    font-weight: 800;
+    font-size: 50px;
+    text-align: left;
+    padding: 0px 0px 0px 78px ;
+}
+.box h2{
+    text-align: left;
+    padding: 0px 0px 0px 70px;
+    font-weight: 500;
+}
+.first{
+    display: flex;
+}
+.first img{
+    width: 500px;
+}
+.content{
+    text-align: center;
+    padding: 112px 0px 0px 0px;
+    width: 700px;
+
+}
+.second{
+    display: flex;
+}
+.second img{
+    width: 500px;
+    padding: 20px 0px 0px 20px;
+}
+.third{
+    display: flex;
+}
+.third img{
+    width: 500px;
+    padding: 20px 0px 0px 20px;
+}
+.fourth{
+    display: flex;
+}
+.fourth img{
+    width: 500px;
+    padding: 20px 0px 0px 20px;
+}
+.sec_img img{
+    position: relative;
+    z-index: 10;
+}
+.sec_img video{
+    
+   position: relative;
+    top: -305px;
+    bottom: 0;
+    height: 213px;
+    width: 362px;
+    left: 67px;
+}
+.third video{
+    position: relative;
+   
+    left: 86px;
+    right: 27px;
+    height: 176px;
+    top: -54vmin;
+}
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    margin: 6px 0px 0px 0px;
+    padding: 45px 0px 0px 0px;
+    font-family: sans-serif;
+}
+.questions{
+    border: 2px ;
+    background-color: #2d2d2d;
+    height: 80px;
+    width: 80%;
+    margin: 5px;
+    display: flex;
+}
+.FAQ h1{
+    font-size: 42px;
+    font-weight: 800; 
+    padding: 20px;
+
+}
+.FAQ h2{
+    font-size: 25px;
+    font-weight: 300;
+padding: 10px 0px 0px 10px;
+}
+.add{
+    position: relative;
+    left: 800px;
+    top: 0px;
+    font-size: 50px;
+}
+#question2 .add{
+    left: 650px;
+    top: 0px;
+}
+#question3 .add{
+    left: 751px;
+    top: 0px;
+}
+#question4 .add{
+    left: 776px;
+    top: 0px;
+}
+#question5 .add{
+    left: 663px;
+    top: 0px;
+}
+#question6 .add{
+    left: 663px;
+    top: 0px;
+}
+.answer{
+    
+ border: 2px ;
+background-color: #2d2d2d;
+ height: 80px;
+ width: 80%;
+ margin: 5px;
+ display: flex;
+
+}
+.answer h4{
+font-family: sans-serif;
+font-weight: 100;
+font-size: 30px;
+padding: 20px 20px 0px 20px ;
+}
+#answer1{
+    height: 300px;
+}
+#answer2{
+    height: 200px;
+}
+#answer3{
+    height: 300px;
+}
+#answer4{
+    height: 200px;
+}
+#answer5{
+    height: 200px;
+}
+#answer6{
+    height: 200px;
+}
+.FAQ ul{
+    display: flex;
+}
+.FAQ ul li{
+    margin: 10px;
+    list-style: none;
+}
+.FAQ ul li input{
+    height: 40px;
+    width: 330px;
+    border: 1px solid rgb(253, 252, 252);
+    border-radius: 4px;
+    padding: 5px;
+    background: transparent;
+    color: rgb(252, 246, 246);
+    font-size: 20px;
+}
+.FAQ ul li button{
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    padding: 50px 0px 0px 80px;
+    background-color: black;
+    font-family: sans-serif;
+    margin:5px 0px 0px 0px;
+    color:white;
+}
+footer a{
+    color: white;
+}
+footer h5{
+    margin: 10px;
+}
+.list{
+    padding: 20px;
+}
+footer ul li{
+    list-style: none;
+    margin: 20px;
+}
+footer ul li a{
+    color: white;
+}
+footer ul li a:active{
+    color: red;
+}
+footer select{
+    height: 35px;
+    width: 110px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+    background: transparent;
+}
